@@ -11,6 +11,13 @@
 		1EA4467F297EAD8D00055BEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4467E297EAD8D00055BEF /* ContentView.swift */; };
 		1EA44683297EAD8E00055BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA44682297EAD8E00055BEF /* Assets.xcassets */; };
 		1EA44686297EAD8E00055BEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA44685297EAD8E00055BEF /* Preview Assets.xcassets */; };
+		1EA4468F297EB94600055BEF /* CubeNonGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4468E297EB94600055BEF /* CubeNonGestures.swift */; };
+		1EA44691297EB95B00055BEF /* SphereNonGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44690297EB95B00055BEF /* SphereNonGestures.swift */; };
+		1EA44693297EB96C00055BEF /* CubeWithGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44692297EB96C00055BEF /* CubeWithGestures.swift */; };
+		1EA44695297EB98200055BEF /* SphereWithGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44694297EB98200055BEF /* SphereWithGestures.swift */; };
+		1EA44697297EBA0000055BEF /* TypeVirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44696297EBA0000055BEF /* TypeVirtualObject.swift */; };
+		1EA44699297EBA1900055BEF /* VirtualObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44698297EBA1900055BEF /* VirtualObjectsFactory.swift */; };
+		1EA4469B297EBA3200055BEF /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4469A297EBA3200055BEF /* VirtualObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		1EA4467E297EAD8D00055BEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EA44682297EAD8E00055BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA44685297EAD8E00055BEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EA4468E297EB94600055BEF /* CubeNonGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeNonGestures.swift; sourceTree = "<group>"; };
+		1EA44690297EB95B00055BEF /* SphereNonGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereNonGestures.swift; sourceTree = "<group>"; };
+		1EA44692297EB96C00055BEF /* CubeWithGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeWithGestures.swift; sourceTree = "<group>"; };
+		1EA44694297EB98200055BEF /* SphereWithGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereWithGestures.swift; sourceTree = "<group>"; };
+		1EA44696297EBA0000055BEF /* TypeVirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeVirtualObject.swift; sourceTree = "<group>"; };
+		1EA44698297EBA1900055BEF /* VirtualObjectsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectsFactory.swift; sourceTree = "<group>"; };
+		1EA4469A297EBA3200055BEF /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 		1EA4467B297EAD8D00055BEF /* FactoryPatternInAugmentedReality */ = {
 			isa = PBXGroup;
 			children = (
+				1EA4468C297EB8D900055BEF /* FactoryPattern */,
 				1EA4467C297EAD8D00055BEF /* AppDelegate.swift */,
 				1EA4467E297EAD8D00055BEF /* ContentView.swift */,
 				1EA44682297EAD8E00055BEF /* Assets.xcassets */,
@@ -65,6 +80,28 @@
 				1EA44685297EAD8E00055BEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EA4468C297EB8D900055BEF /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4468D297EB8FA00055BEF /* ProductsOfFactory */,
+				1EA44696297EBA0000055BEF /* TypeVirtualObject.swift */,
+				1EA44698297EBA1900055BEF /* VirtualObjectsFactory.swift */,
+				1EA4469A297EBA3200055BEF /* VirtualObject.swift */,
+			);
+			name = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		1EA4468D297EB8FA00055BEF /* ProductsOfFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4468E297EB94600055BEF /* CubeNonGestures.swift */,
+				1EA44690297EB95B00055BEF /* SphereNonGestures.swift */,
+				1EA44692297EB96C00055BEF /* CubeWithGestures.swift */,
+				1EA44694297EB98200055BEF /* SphereWithGestures.swift */,
+			);
+			name = ProductsOfFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA4467F297EAD8D00055BEF /* ContentView.swift in Sources */,
+				1EA44693297EB96C00055BEF /* CubeWithGestures.swift in Sources */,
+				1EA4468F297EB94600055BEF /* CubeNonGestures.swift in Sources */,
+				1EA44691297EB95B00055BEF /* SphereNonGestures.swift in Sources */,
+				1EA44695297EB98200055BEF /* SphereWithGestures.swift in Sources */,
+				1EA4469B297EBA3200055BEF /* VirtualObject.swift in Sources */,
 				1EA4467D297EAD8D00055BEF /* AppDelegate.swift in Sources */,
+				1EA44697297EBA0000055BEF /* TypeVirtualObject.swift in Sources */,
+				1EA44699297EBA1900055BEF /* VirtualObjectsFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
