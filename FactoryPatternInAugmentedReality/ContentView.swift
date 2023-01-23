@@ -9,23 +9,35 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @StateObject var viewModel = ViewModel()
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        ZStack{
+            ARViewContainer().edgesIgnoringSafeArea(.all).environmentObject(viewModel)
+            SwiftUIView(viewModel: viewModel)
+        }
     }
 }
 
 struct ARViewContainer: UIViewRepresentable {
     
+    @EnvironmentObject var environmentViewModel: ViewModel
+    
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
         
+        arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(CoordinatorARSession.handleTap)))
+        context.coordinator.view = arView
         
         return arView
         
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
+    
+    func makeCoordinator() -> CoordinatorARSession {
+        CoordinatorARSession(parent: self)
+    }
     
 }
 
