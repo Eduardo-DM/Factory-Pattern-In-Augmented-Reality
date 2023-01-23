@@ -18,6 +18,7 @@
 		1EA44697297EBA0000055BEF /* TypeVirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44696297EBA0000055BEF /* TypeVirtualObject.swift */; };
 		1EA44699297EBA1900055BEF /* VirtualObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA44698297EBA1900055BEF /* VirtualObjectsFactory.swift */; };
 		1EA4469B297EBA3200055BEF /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4469A297EBA3200055BEF /* VirtualObject.swift */; };
+		1EA4469D297EBBE100055BEF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4469C297EBBE100055BEF /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1EA44696297EBA0000055BEF /* TypeVirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeVirtualObject.swift; sourceTree = "<group>"; };
 		1EA44698297EBA1900055BEF /* VirtualObjectsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectsFactory.swift; sourceTree = "<group>"; };
 		1EA4469A297EBA3200055BEF /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		1EA4469C297EBBE100055BEF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				1EA4468C297EB8D900055BEF /* FactoryPattern */,
 				1EA4467C297EAD8D00055BEF /* AppDelegate.swift */,
 				1EA4467E297EAD8D00055BEF /* ContentView.swift */,
+				1EA4469C297EBBE100055BEF /* ViewModel.swift */,
 				1EA44682297EAD8E00055BEF /* Assets.xcassets */,
 				1EA44684297EAD8E00055BEF /* Preview Content */,
 			);
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA4469D297EBBE100055BEF /* ViewModel.swift in Sources */,
 				1EA4467F297EAD8D00055BEF /* ContentView.swift in Sources */,
 				1EA44693297EB96C00055BEF /* CubeWithGestures.swift in Sources */,
 				1EA4468F297EB94600055BEF /* CubeNonGestures.swift in Sources */,
