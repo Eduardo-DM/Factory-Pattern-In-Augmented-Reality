@@ -22,6 +22,7 @@
 		1EA4469F297EBC7B00055BEF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4469E297EBC7B00055BEF /* SwiftUIView.swift */; };
 		1EA446A1297EBCD500055BEF /* CoordinatorARSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA446A0297EBCD500055BEF /* CoordinatorARSession.swift */; };
 		1EA446A3297EBE1500055BEF /* ButtonCapsuleBorderProminentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA446A2297EBE1500055BEF /* ButtonCapsuleBorderProminentModifier.swift */; };
+		1EAB491A2983A24B001C004A /* ARCoaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB49192983A24B001C004A /* ARCoaching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		1EA4469E297EBC7B00055BEF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		1EA446A0297EBCD500055BEF /* CoordinatorARSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorARSession.swift; sourceTree = "<group>"; };
 		1EA446A2297EBE1500055BEF /* ButtonCapsuleBorderProminentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCapsuleBorderProminentModifier.swift; sourceTree = "<group>"; };
+		1EAB49192983A24B001C004A /* ARCoaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCoaching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				1EA4467C297EAD8D00055BEF /* AppDelegate.swift */,
 				1EA4467E297EAD8D00055BEF /* ContentView.swift */,
 				1EA446A0297EBCD500055BEF /* CoordinatorARSession.swift */,
+				1EAB49192983A24B001C004A /* ARCoaching.swift */,
 				1EA4469C297EBBE100055BEF /* ViewModel.swift */,
 				1EA4469E297EBC7B00055BEF /* SwiftUIView.swift */,
 				1EA446A2297EBE1500055BEF /* ButtonCapsuleBorderProminentModifier.swift */,
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAB491A2983A24B001C004A /* ARCoaching.swift in Sources */,
 				1EA4469D297EBBE100055BEF /* ViewModel.swift in Sources */,
 				1EA4467F297EAD8D00055BEF /* ContentView.swift in Sources */,
 				1EA4469F297EBC7B00055BEF /* SwiftUIView.swift in Sources */,
@@ -324,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FactoryPatternInAugmentedReality/Preview Content\"";
@@ -343,8 +348,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EduardoDev.FactoryPatternInAugmentedReality;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasai.FactoryPatternInAugmentedReality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -359,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FactoryPatternInAugmentedReality/Preview Content\"";
@@ -378,8 +385,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EduardoDev.FactoryPatternInAugmentedReality;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasai.FactoryPatternInAugmentedReality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

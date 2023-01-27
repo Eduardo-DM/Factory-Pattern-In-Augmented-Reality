@@ -25,6 +25,10 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
+        let anchor = AnchorEntity(plane: .horizontal)
+        anchor.name = "Plane Anchor"
+        arView.scene.addAnchor(anchor)
+        arView.addCoaching()
         
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(CoordinatorARSession.handleTap)))
         context.coordinator.view = arView
