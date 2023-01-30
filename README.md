@@ -1,5 +1,6 @@
 # Factory-Pattern-In-Augmented-Reality
 A demonstrator of Factory pattern in Augmented Reality context. Goal is create a set of predefined virtual objects and manipulate them without knowledge of RealityKit.
+I intented show the fusion of consolidated practices & an innovate framework. Tradition & disruption.
 
 ## About factory pattern
 User can choose the creation of two basic shapes of virtual objects: a cube or a sphere. These objects have a basic setting to be manipulated with gestures (drag, rotation, ...) or not. Hence there are four possible objects / products that can be created.
@@ -58,3 +59,4 @@ User selects the type of virtual object in a Picker
 The virtual object is created with a tap in the screen. Where? on the point of tap
 ### Interaction with objects
 Once the virtual object is shown, some buttons to control it are displayed. We can change height or color, also delete the object. Gestures like drag are recognized if virtual object allows them.
+It is used the MVVM pattern.
